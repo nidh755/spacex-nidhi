@@ -1,0 +1,100 @@
+.name{
+    color: blue;
+    font-weight: 600;
+}
+.id{
+    font-weight: bold;
+    span{
+        color: blue;
+    }
+}
+header{
+    font-weight: bolder;
+    font-size: 28px;
+}
+body{
+    background-color: lightgray;
+}
+.card-comp{
+    width: 250px;
+    margin:5px;
+    
+    padding:10px;
+    .card-img{
+        max-width: 100%;
+         height: 280px;
+        background-color: lightgray;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:750px){
+    .card-comp{
+    width:10rem;
+    }   
+}
+@media screen and (min-width:751px) and (max-width:1025px){
+    .card-comp{
+    width:11rem;
+    
+}  
+}
+@media screen and (min-width:1000px) and (max-width:1025px){
+    .card-comp{
+    width:16rem;
+    
+    
+    }
+   
+}
+
+@media screen and (max-width:700px){
+    .program-grid{
+        justify-content: center;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1082px){
+    .card-comp{
+    width:8rem;
+  
+    }
+    .MuiGrid-root{
+        .filter-grid{
+        margin-left: 10px;
+    }
+    
+}
+}
+@media screen and (min-width:1083px) and (max-width:1440px){
+    .card-comp{
+    width:11rem;
+    justify-content: space-around;
+    
+    }
+    .MuiGrid-root{
+        .filter-grid{
+        margin-left: 10px;
+    }
+    
+}
+}
+@media screen and (min-width:1296px) and (max-width:1440px){
+    .card-comp{
+    width:12rem;
+    justify-content: space-around;
+    text-align: center;
+    
+    }
+    .MuiGrid-root{
+        .filter-grid{
+        margin-left: 10px;
+    }
+    
+}
+}
+@media screen and (min-width:1250px){
+    .program-grid{
+        margin-left: 8%;
+    }
+    
+}
+
